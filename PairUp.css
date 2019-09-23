@@ -1,0 +1,112 @@
+body{
+	margin-right:10px; 
+    margin-bottom:10px;
+     margin-left:10px; 
+     background-color:#343a40;
+}
+.logo{
+      width: 3em;
+}
+.bg-dark{
+	opacity:0.9;   
+}
+.hd {
+	font-family: 'Vollkorn SC', serif;
+}
+.center{
+  background-image: url("C:/Users/hp/Desktop/My First Website On-going/center.jpg");
+  height: 100vh;
+  margin-bottom:10px;
+  min-width: 100vh;
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  padding: 10vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.centertext {
+	color:white;
+	font-size:1vw;
+	font-family: 'Cinzel', serif;
+}
+.link {
+	outline: none;
+	text-decoration: none;
+	position: relative;
+	font-size: 5em;
+	line-height: 1;
+	color: #9e9ba4;
+	
+}
+
+.link--kukuri:hover {
+	color: #b2b0a9;
+}
+
+.link--kukuri::after {
+	position: absolute;
+	height: 16px;
+	width: 100%;
+	top: 50%;
+	margin-top: -8px;
+	right: 0;
+	background: #F9F9F9;
+	transform: translate3d(-100%,0,0);
+	transition: transform 0.4s;
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.link--kukuri:hover::after {
+
+	transform: translate3d(100%,0,0);
+}
+
+.link--kukuri::before {
+	content: attr(data-letters);
+	position: absolute;
+	z-index: 2;
+	overflow: hidden;
+	color: #424242;
+	white-space: nowrap;
+	width: 0%;
+	transition: width 0.4s 0.3s;
+}
+
+.link--kukuri:hover::before {
+	width: 100%;
+}
+.cars { 
+	width: 100%;
+    height: 100%;
+    height: 600px;
+    margin-bottom:10px;
+    }
+#mc_embed_signup{
+		background-color: :#343a40;
+		 font:14px Helvetica,Arial,sans-serif;
+		  width:100%;
+		}   
+.move{
+	margin-left: 42vw;
+}
+.button{
+	color: black;
+}
+footer{
+	font-weight: bold;
+	font-family: 'Cinzel', serif;
+	margin-top: 10px;
+	margin-left: 46vw;
+}
+.social {
+	margin-left: 49vw;
+}
+.social > a {
+	padding:4px;
+}
+.slidehd{
+	font-family: 'Vollkorn SC', serif;
+}
