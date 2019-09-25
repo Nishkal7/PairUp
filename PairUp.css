@@ -20,6 +20,7 @@ body{
   height: 150px;
   padding: 3px;
   background-size: cover;
+ background-position: center;	
 }
 .centertext {
 	color:white;
