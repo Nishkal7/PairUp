@@ -16,7 +16,7 @@ body{
 .center{
   background-image: url("https://github.com/Nishkal7/PairUp/blob/master/Center.jpg?raw=true");
   height: 100vh;
-  min-width:100vh;
+  min-width:40vmin;
   flex: 1;
   display: flex;
   align-items: stretch;
