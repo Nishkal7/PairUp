@@ -15,12 +15,9 @@ body{
 }
 .center{
   background-image: url("https://github.com/Nishkal7/PairUp/blob/master/Center.jpg?raw=true");
-  box-sizing: border-box;
-  width: 100%;
-  height: 150px;
-  padding: 3px;
-  background-size: cover;
- background-position: center;	
+  background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;    
 }
 .centertext {
 	color:white;
