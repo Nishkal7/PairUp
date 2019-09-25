@@ -19,6 +19,8 @@ body{
   max-width:1800px;	
   flex: 1;
   display: flex;*/
+	width:100%;
+	heigth:auto;
   align-items: stretch;
   justify-content: center;
   padding: 10vh;
