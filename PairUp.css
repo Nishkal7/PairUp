@@ -15,12 +15,10 @@ body{
 }
 .center{
   background-image: url("https://github.com/Nishkal7/PairUp/blob/master/Center.jpg?raw=true");
-  /*height: auto;
+  height: auto;
   max-width:1800px;	
   flex: 1;
-  display: flex;*/
-	width:100%;
-	heigth:auto;
+  display: flex;
   align-items: stretch;
   justify-content: center;
   padding: 10vh;
