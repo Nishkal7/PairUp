@@ -63,6 +63,10 @@ body{
 
 	transform: translate3d(100%,0,0);
 }
+.cars {
+        width  = 100vh;
+	height = 100vh;
+}
 
 .link--kukuri::before {
 	content: attr(data-letters);
